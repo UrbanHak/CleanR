@@ -1,0 +1,112 @@
+ 🔧  Requirements:
+
+- Raspberry Pi 5 or Jetson Nano
+
+- GPS module + optional OBD-II reader
+
+- Node.js 18+, Python 3.10+
+
+- Solidity compiler (via Hardhat or Foundry)
+
+- IPFS or Arweave for data storage
+
+- Ethereum L2 (Optimism/Base/Polygon)
+
+
+
+🚀 Quick Start
+
+1. Clone the Repo
+bash
+Copy
+Edit
+git clone https://github.com/your-org/cleanride-nodes.git
+cd cleanride-nodes
+
+2. Start the dApp (React)
+bash
+Copy
+Edit
+cd dapp
+npm install
+npm run dev
+
+3. Compile Smart Contracts
+bash
+Copy
+Edit
+cd smart-contracts
+npm install
+npx hardhat compile
+
+4. Connect Raspberry Pi Device (optional)
+See hardware/raspberry-setup.md for flashing, sensor integration, and data collector installation.
+
+🧪 Smart Contract Overview
+
+- CLEANToken.sol: ERC-20 token
+
+- RewardContract.sol: Verifies trips + mints CLEAN
+
+- StakingContract.sol: Optional CLEAN staking for validators
+
+- Deployment scripts are available in scripts/.
+
+📊 Tokenomics (Summary)
+
+- Token Name: CLEAN
+
+- Max Supply: 100,000,000
+
+
+- Use Cases: Rewards, governance, staking
+
+- Reward Formula:
+Reward = BaseRate x CleanScore x Distance
+
+- Details available in docs/tokenomics-model.md
+
+📐 Architecture Diagram
+
+The full system is documented in READ.ME
+
+🛡️ Security
+
+- Encrypted local storage (on-device keys)
+
+- ZK integration planned for privacy-preserving trip validation
+
+- Smart contracts to be audited before public launch
+
+🤝 Contributing
+We welcome contributors and collaborators:
+
+bash
+Copy
+Edit
+git checkout -b feature/your-feature
+git commit -m "Add: your feature"
+git push origin feature/your-feature
+
+Please see CONTRIBUTING.md for guidelines.
+
+📄 License
+MIT License © 2025 (CleanRide Labs)
+
+🛰️ Stay Connected
+Website
+
+Docs Portal
+
+Twitter
+
+Telegram
+
+Together, let's ride toward a decentralized, cleaner future.
+
+
+
+
+
+
+
