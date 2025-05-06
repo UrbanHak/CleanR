@@ -34,7 +34,7 @@ All components run locally on low-power embedded devices (Raspberry Pi, Jetson N
 ## 🪙 Azos Stablecoin (Overview)
 
 - **Purpose**: To reward regenerative activity (e.g., clean rides) without volatility
-- **Backing**: $200M+ in green/blue bonds and real-world assets
+- **Backing**: $200M+ in green/blue bonds, RWA and real-world natural assets
 - **Circulation**: Smart contract managed, on-chain audited
 - **Usage**: Payouts, governance, DePIN staking, and local subsidies
 
